@@ -1,21 +1,10 @@
-import Button from "@/components/Button";
-import CookieIcon from "@/components/CookieIcon";
-import { FaCookieBite } from "react-icons/fa";
+import CookiePopUp from "@/components/CookiePopUp";
+import If from "@/components/If";
 
 export default function Home() {
   return (
     <div>
-      <main>
-        <div className="cookie_container">
-          <FaCookieBite className="cookieBite" />
-          <h2>Accept cookies?</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          <div className="btn_container">
-            <Button btnText="accept cookies"></Button>
-            <Button btnText="no cookies"></Button>
-          </div>
-        </div>
-      </main>
+      <If content={true}></If>
     </div>
   );
 }
