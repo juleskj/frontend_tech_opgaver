@@ -30,12 +30,13 @@ body {
   bottom: 10%;
   right: 2%;
 
-  background-color: rgb(173, 173, 173);
+  background-color: white;
   box-shadow: 3px 3px 4px rgb(140, 140, 140);
   border-radius: 1rem;
   padding: 10px 20px;
   min-width: 15rem;
   max-width: 20rem;
+
   & p {
     word-break: normal;
   }
@@ -55,8 +56,6 @@ body {
   gap: 5px;
 
   & button {
-    color: var(--background);
-    background-color: var(--foreground);
     padding-inline: 10px;
     border-radius: 1rem;
     outline: 1px var(--foreground) solid;

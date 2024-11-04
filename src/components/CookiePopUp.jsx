@@ -5,11 +5,10 @@ const CookiePopUp = ({ children }) => {
   return (
     <div className="cookie_container">
       <FaCookieBite className="cookieBite" />
-      <h2>Accept cookies?</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+      <p>we use cookies to improve your experience</p>
       <div className="btn_container">
-        <Button btnText="accept cookies"></Button>
-        <Button btnText="no cookies"></Button>
+        <Button btnText="i like cookies"></Button>
       </div>
     </div>
   );

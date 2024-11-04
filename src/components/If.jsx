@@ -1,11 +1,11 @@
-import CookiePopUp from "./CookiePopUp";
+// import CookiePopUp from "./CookiePopUp";
 
-const If = ({ children, props, content }) => {
-  let content = props.hasCookies;
+// const If = ({ children, props, content }) => {
+//   let content = props.hasCookies;
 
-  if (content) {
-    return <CookiePopUp></CookiePopUp>;
-  }
-};
+//   if (content) {
+//     return <CookiePopUp></CookiePopUp>;
+//   }
+// };
 
-export default If;
+// export default If;
