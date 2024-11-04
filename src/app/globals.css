@@ -50,16 +50,6 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
   gap: 5px;
-
-  & button {
-    padding-inline: 10px;
-
-    margin: 10px 0 10px 0;
-
-    &:is(:hover, :active) {
-      transition: 0.2s;
-    }
-  }
 }
 
 @keyframes popup_kf {

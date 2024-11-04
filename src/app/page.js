@@ -1,12 +1,14 @@
 import CookiePopUp from "@/components/CookiePopUp";
-// import { useState } from "react";
-
-// const [isCookieAccepted, setIsCookiesAccepted] = useState(false);
+import If from "@/components/If";
 
 export default function Home() {
+  const cookieIsAccepted = true;
+
   return (
     <div>
-      <CookiePopUp></CookiePopUp>
+      <If condition={cookieIsAccepted}>
+        <CookiePopUp></CookiePopUp>
+      </If>
     </div>
   );
 }
